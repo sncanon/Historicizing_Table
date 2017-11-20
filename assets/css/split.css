@@ -1,0 +1,393 @@
+/*
+Template Name: Split
+Author: One Page Love
+Author URI: https://onepagelove.com
+Template URI: https://onepagelove.com/split
+Description: Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content.
+*/
+/* -- CSS Reset -- */
+h1 {
+	font-size:5em;
+	font-family: 'DIN Condensed'; Impact; Helvetica; sans-serif;
+	text-transform: uppercase;
+	font-weight: lighter;
+  color:#2f2f2f;
+
+}
+h2 {
+	color:gray;
+	font-size:1.7em;
+	margin:0;
+	font-family: 'DIN Condensed'; Impact; Helvetica; sans-serif;
+	text-transform: uppercase;
+  padding-top: 45px;
+  letter-spacing: 1px;
+
+}
+h3 {
+	font-family: 'DIN Condensed'; Impact; Helvetica; sans-serif;
+	text-transform: uppercase;
+	color:gray;
+
+}
+h4 {
+	padding-bottom:10px;
+	font-size:1.4em;
+	color:#000;
+}
+h5 {
+	padding-bottom:10px;
+	font-size:1.2em;
+	color:#666666;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 5px;
+    color: #555555;
+}
+
+
+
+
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+  font-size: 16px;
+color: #555555;
+text-align: right;
+font-style: italic;}
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  color: #555555;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc;
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: "liga" on;
+  margin: 0; }
+
+img.alignright {
+  float: right; }
+
+img.alignleft {
+  float: left; }
+
+img.aligncenter {
+  clear: both;
+  display: block;
+  margin-right: auto;
+  margin-left: auto; }
+
+body {
+  background-color: #FFFFFF;
+  border-style: none; }
+
+body,
+p,
+a,
+a:hover {
+  color: #000000; }
+
+a,
+a:hover {
+  text-decoration: none;
+  border: none;
+  border-style: none;
+  box-shadow: none; }
+
+/* -- Content -- */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+html {
+  background-color: black; }
+
+body.page-template-page-fullsingle-split {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 33px;
+  letter-spacing: -0.2px;
+  color: #848d96;
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s; }
+  body.page-template-page-fullsingle-split p {
+    color: #555555;
+  padding-top: 15px;}
+
+.fs-split {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  @media (max-width: 800px) {
+    .fs-split {
+      height: auto;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; } }
+  .fs-split .split-image {
+    width: 50%;
+    height: 100vh;
+    background-image: url("../../images/nav_background.jpg");
+    background-position: center;
+    background-size: cover; }
+    @media (max-width: 800px) {
+      .fs-split .split-image {
+        height: auto;
+        width: 100%; } }
+  .fs-split .split-content {
+    width: 50%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: auto; }
+    @media (max-width: 800px) {
+      .fs-split .split-content {
+        width: 100%;
+        height: auto; } }
+    .fs-split .split-content .split-content-vertically-center {
+      padding: 80px;
+      max-width: 640px;
+      margin-top: auto;
+      margin-bottom: auto; }
+      @media (max-width: 1200px) {
+        .fs-split .split-content .split-content-vertically-center {
+          padding: 60px; } }
+      @media (max-width: 800px) {
+        .fs-split .split-content .split-content-vertically-center {
+          padding: 40px; } }
+
+.split-intro {
+  font-weight: 600;
+  font-size: 64px; }
+  .split-intro h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 70px;
+    margin-bottom: 15px;;
+    letter-spacing: 0.4px;
+    color: #444444;
+    font-family: 'DIN Condensed'; Impact; Helvetica; sans-serif;
+    text-transform: uppercase;
+  padding-top: 100px;
+line-height: 60px;}
+  .split-intro .tagline {
+    font-size: 40px;
+    letter-spacing: 0.4px;
+    font-family: 'DIN Condensed'; Impact; Helvetica; sans-serif;
+    text-transform: uppercase;
+    color: #CCCCCC;}
+
+
+
+    .split-sidebar {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 40px;
+      letter-spacing: 2px;
+    padding-top: 25px;}
+
+      .split-sidebar h1 {
+        font-size:90px;
+      	font-family: 'DIN Condensed'; Impact; Helvetica; sans-serif;
+      	text-transform: uppercase;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+        padding-bottom: none;
+        line-height: 80px;
+    color: white;}
+      .split-sidebar .tagline {
+        color:white;
+      	font-size:2.0em;
+      	font-weight:normal;
+      	margin:0;
+      	font-family: 'DIN Condensed'; Impact; Helvetica; sans-serif;
+      	text-transform: uppercase;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+
+      }
+
+.split-bio {
+  padding: 40px 0 40px 0;
+  font-family: 'Lora', serif; }
+  @media (max-width: 1200px) {
+    .split-bio {
+      padding: 30px 0; } }
+  @media (max-width: 800px) {
+    .split-bio {
+      padding: 20px 0; } }
+  .split-bio p {
+    color: #848d96; }
+  .split-bio a {
+    color: #555555;
+    transition-duration: 0.5s;
+    border-bottom: .5px dotted #949494; }
+    .split-bio a:hover {
+      color: #4d0000;
+      transition-duration: 0.1s;
+      border-bottom: 1px dotted #CA486d; }
+
+.split-lists .split-list {
+  width: 30%;
+  display: inline-block;
+  margin-bottom: 40px; }
+  @media (max-width: 500px) {
+    .split-lists .split-list {
+      width: 90%; } }
+  .split-lists .split-list h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 11px;
+    margin-bottom: 31px;
+    color: #848d96;
+    letter-spacing: 2px;
+    opacity: 0.5; }
+  .split-lists .split-list ul li {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 12px; }
+    .split-lists .split-list ul li a {
+      color: #848d96;
+      transition-duration: 0.5s; }
+      .split-lists .split-list ul li a:hover {
+        color: #CA486d;
+        transition-duration: 0.1s; }
+
+.split-credit {
+  padding-top: 35px;
+  opacity: 0.5; }
+  .split-credit p {
+    padding-top: 35px;
+    font-size: 12px;
+    line-height: 14px; }
+    .split-credit p a {
+      padding-top: 35px;
+      color: #555555; }
+
+.split-video {
+  overflow: hidden;
+  position: relative; }
+
+.video-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  height: 56.25vw;
+  width: 100vw; }
+  @media (max-aspect-ratio: 16 / 9) {
+    .video-container {
+      height: 100vh;
+      width: 177.7777777778vh; } }
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+video.video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  width: 100%;
+  height: 100%; }
+
+  nav#mainnav ul {
+  	padding: 0;
+  	margin: 0;
+  	list-style: none;
+    padding-top: 35px;
+
+  }
+
+  nav#mainnav li {
+  	padding:0;
+  	border-bottom: none;
+
+  }
+  nav#mainnav li.selected-item  {
+  	border-bottom:none;
+    font-weight: bold;
+  }
+  nav#mainnav li.selected-item a,
+  nav#mainnav li.selected-item a:hover {
+  	color:#fff;
+  	background: rgba(41,41,41,0.4);
+    font-weight: bold;
+  }
+  nav#mainnav li a:hover {
+  	background:#292929;
+  	color: #eee;
+  	text-decoration:none;
+    font-weight: bold;
+  }
+  nav#mainnav li a {
+  	color: #ccc;
+  	display: block;
+  	padding: 1px;
+  	padding-left: 50px;
+  	text-align: left;
+  	text-transform: uppercase;
+  	font-weight: bold;
+  	text-decoration: none;
+  	letter-spacing: 2.5px;
+  	font-weight: 100;
+    margin: none;
+    font-weight: bold;
+  }
